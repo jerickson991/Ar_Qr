@@ -1,0 +1,455 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - a39c749b7f1dd68e8fcb597e3575f0bb9d09bfc8",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 81060,
+            "type": "VEC3",
+            "max": [
+                1.2246001958847047,
+                0.1364002674818039,
+                0.009369859471917153
+            ],
+            "min": [
+                0.008000016212463379,
+                -0.0030000091064721348,
+                -0.07999999821186066
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 81060,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 81060,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 20136,
+            "type": "SCALAR",
+            "max": [
+                81059.0
+            ],
+            "min": [
+                4421.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 29607,
+            "type": "SCALAR",
+            "max": [
+                79807.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 10038,
+            "type": "SCALAR",
+            "max": [
+                80594.0
+            ],
+            "min": [
+                4422.0
+            ]
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5125,
+            "count": 21279,
+            "type": "SCALAR",
+            "max": [
+                81053.0
+            ],
+            "min": [
+                1.0
+            ]
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC3",
+            "max": [
+                0.09999999403953552,
+                0.19999998807907105,
+                0.09999999403953552
+            ],
+            "min": [
+                -0.09999999403953552,
+                0.0,
+                -0.09999999403953552
+            ]
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5125,
+            "count": 13536,
+            "type": "SCALAR",
+            "max": [
+                2398.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 972720,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 972720,
+            "byteLength": 972720,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1945440,
+            "byteLength": 648480,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2593920,
+            "byteLength": 80544,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2674464,
+            "byteLength": 118428,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2792892,
+            "byteLength": 40152,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2833044,
+            "byteLength": 85116,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2918160,
+            "byteLength": 28788,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2946948,
+            "byteLength": 28788,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2975736,
+            "byteLength": 19192,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2994928,
+            "byteLength": 54144,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3049072,
+            "uri": "gatesText_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000029858430934837089,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "image_image",
+            "uri": "gatesText_images/image_image.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "cement_grout_brushed_normal",
+            "uri": "gatesText_images/cement_grout_brushed_normal.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "cement_grout_brushed_baseColor",
+            "uri": "gatesText_images/cement_grout_brushed_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicRoughnessTexture": {
+                    "index": 0
+                }
+            },
+            "normalTexture": {
+                "index": 1
+            },
+            "name": "Cement",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicRoughnessTexture": {
+                    "index": 0
+                }
+            },
+            "normalTexture": {
+                "index": 1
+            },
+            "name": "Cement 2",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0423114113509655,
+                    0.19120167195796967,
+                    0.5088814496994019,
+                    1.0
+                ],
+                "metallicFactor": 0.4099999964237213
+            },
+            "emissiveFactor": [
+                0.0029617988038808109,
+                0.013384116813540459,
+                0.035621702671051028
+            ],
+            "name": "Matte 2",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "TextMesh#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                },
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 4,
+                    "material": 1
+                },
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 5,
+                    "material": 1
+                },
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 6,
+                    "material": 1
+                }
+            ]
+        },
+        {
+            "name": "PROCEDURAL_MESHES_SPHERE#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 7,
+                        "NORMAL": 8,
+                        "TEXCOORD_0": 9
+                    },
+                    "indices": 10,
+                    "material": 2
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                1.0394160747528077,
+                0.5044049620628357,
+                1.039415955543518
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                -0.3883790075778961,
+                0.24533702433109284,
+                0.40586742758750918
+            ],
+            "rotation": [
+                0.0,
+                0.37460654973983767,
+                0.0,
+                0.9271838665008545
+            ],
+            "scale": [
+                0.9041442275047302,
+                0.9864909648895264,
+                0.30550646781921389
+            ],
+            "mesh": 0,
+            "name": "Text"
+        },
+        {
+            "children": [
+                3
+            ],
+            "translation": [
+                -0.12895941734313966,
+                0.0,
+                -0.1478528529405594
+            ],
+            "name": "Group 2"
+        },
+        {
+            "children": [
+                4
+            ],
+            "translation": [
+                0.10773307830095291,
+                0.0,
+                0.12016219645738602
+            ],
+            "name": "Group"
+        },
+        {
+            "translation": [
+                -0.12298832833766937,
+                0.06935305148363114,
+                -0.11641892790794373
+            ],
+            "rotation": [
+                0.027476901188492776,
+                0.9210314750671387,
+                0.07349036633968353,
+                -0.3815038800239563
+            ],
+            "scale": [
+                6.857295989990234,
+                2.0354490280151369,
+                0.9999995231628418
+            ],
+            "mesh": 1,
+            "name": "Sphere"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "image_image",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "cement_grout_brushed_material::normal::image",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "cement_grout_brushed_material::baseColor::image2",
+            "sampler": 2,
+            "source": 2
+        }
+    ],
+    "scene": 0
+}
