@@ -1,0 +1,398 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - a39c749b7f1dd68e8fcb597e3575f0bb9d09bfc8",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3",
+            "max": [
+                0.09999999403953552,
+                0.0,
+                0.09999999403953552
+            ],
+            "min": [
+                -0.09999999403953552,
+                0.0,
+                -0.09999999403953552
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 6,
+            "type": "SCALAR",
+            "max": [
+                3.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 34380,
+            "type": "VEC3",
+            "max": [
+                0.43923842906951907,
+                0.15579524636268617,
+                0.0
+            ],
+            "min": [
+                0.007996320724487305,
+                -0.0045293644070625309,
+                -0.029999999329447748
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 34380,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 34380,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 17202,
+            "type": "SCALAR",
+            "max": [
+                34372.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 8589,
+            "type": "SCALAR",
+            "max": [
+                34379.0
+            ],
+            "min": [
+                3303.0
+            ]
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5125,
+            "count": 8589,
+            "type": "SCALAR",
+            "max": [
+                32662.0
+            ],
+            "min": [
+                1.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 48,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 48,
+            "byteLength": 48,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 96,
+            "byteLength": 32,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 128,
+            "byteLength": 24,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 152,
+            "byteLength": 412560,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 412712,
+            "byteLength": 412560,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 825272,
+            "byteLength": 275040,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1100312,
+            "byteLength": 68808,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1169120,
+            "byteLength": 34356,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1203476,
+            "byteLength": 34356,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1237832,
+            "uri": "gatesVb_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000018696042388910429,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "cement_grout_brushed_baseColor",
+            "uri": "gatesVb_images/cement_grout_brushed_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "image_image",
+            "uri": "gatesVb_images/image_image.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "cement_grout_brushed_normal",
+            "uri": "gatesVb_images/cement_grout_brushed_normal.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "name": "Cement",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    0.6307569742202759,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.4000000059604645
+            },
+            "name": "Default Material 2",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.830769956111908,
+                    0.8879231810569763,
+                    0.8879231810569763,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.4000000059604645
+            },
+            "name": "Default Material 3",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "PROCEDURAL_MESHES_PLANE#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 2,
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "TextMesh#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                },
+                {
+                    "attributes": {
+                        "TEXCOORD_0": 6,
+                        "NORMAL": 5,
+                        "POSITION": 4
+                    },
+                    "indices": 8,
+                    "material": 2
+                },
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 9,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5,
+                0.29999998211860659,
+                0.5
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                -0.10673683136701584,
+                0.1591586321592331,
+                -0.05113993585109711
+            ],
+            "rotation": [
+                0.5194978713989258,
+                -0.11347304284572602,
+                -0.36483150720596316,
+                0.7642930150032044
+            ],
+            "scale": [
+                2.36008620262146,
+                2.3600878715515138,
+                2.360086441040039
+            ],
+            "mesh": 0,
+            "name": "Plane"
+        },
+        {
+            "translation": [
+                -0.28938886523246767,
+                0.09215642511844635,
+                0.08793578296899796
+            ],
+            "rotation": [
+                0.0,
+                0.2503799498081207,
+                0.0,
+                0.9681476354598999
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0,
+                1.0
+            ],
+            "mesh": 1,
+            "name": "Text"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "cement_grout_brushed_material::baseColor::image",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "image_image",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "cement_grout_brushed_material::normal::image",
+            "sampler": 2,
+            "source": 2
+        }
+    ],
+    "scene": 0
+}
